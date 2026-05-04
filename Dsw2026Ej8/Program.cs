@@ -4,8 +4,7 @@
     {
         static void Main(string[] args)
         {
-            var helper = new ProductHelper();
-            string resultado = helper.ObtenerEtiquetaProducto(01, "sobre mundial", 2000);
+            string resultado = Problema2.CrearResumenVenta(1001, "Auriculares", 2, 15000);
             Console.WriteLine(resultado);
         }
     }
