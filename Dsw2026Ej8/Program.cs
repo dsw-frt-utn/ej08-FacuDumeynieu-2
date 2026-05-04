@@ -4,7 +4,7 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            Console.WriteLine(Problema4.CalcularPromedio(8, 7, null));
         }
     }
 }
