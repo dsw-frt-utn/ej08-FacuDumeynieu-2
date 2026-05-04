@@ -4,8 +4,7 @@
     {
         static void Main(string[] args)
         {
-            string resultado = Problema2.CrearResumenVenta(1001, "Auriculares", 2, 15000);
-            Console.WriteLine(resultado);
+            Console.WriteLine(Problema4.CalcularPromedio(8, 7, null));
         }
     }
 }
